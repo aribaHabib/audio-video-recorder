@@ -91,7 +91,7 @@ const VideoRecorder = () => {
         </div>
         {recordedVideo ? (
           <div className="audio-player">
-            <audio src={recordedVideo} controls></audio>
+            <video src={recordedVideo} controls></video>
             <a download href={recordedVideo}>
               Download Video
             </a>
